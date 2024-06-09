@@ -1,0 +1,290 @@
+{
+  "pets": [
+    {
+      "id": "d415363b-6c91-42e9-96ee-e80b53ff9370",
+      "nombre": "Max",
+      "tipo": "Perro",
+      "raza": "Labrador",
+      "edad": 3,
+      "peso": 30,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Amigable y lleno de energía."
+    },
+    {
+      "id": "183dce39-8871-49a9-ac23-8b86136e236f",
+      "nombre": "Bella",
+      "tipo": "Gato",
+      "raza": "Siames",
+      "edad": 2,
+      "peso": 5,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Cariñosa y juguetona."
+    },
+    {
+      "id": "e8d759a7-8b72-4cd2-8e3a-7bd9dcb93115",
+      "nombre": "Charlie",
+      "tipo": "Perro",
+      "raza": "Beagle",
+      "edad": 4,
+      "peso": 12,
+      "vacunado": true,
+      "esterilizado": false,
+      "descripcion": "Curioso y siempre en busca de aventuras."
+    },
+    {
+      "id": "cd69ea96-9c32-4224-a1d2-4202f7e3ef11",
+      "nombre": "Luna",
+      "tipo": "Gato",
+      "raza": "Maine Coon",
+      "edad": 1,
+      "peso": 6,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Tranquila y le gusta dormir mucho."
+    },
+    {
+      "id": "a4764f44-6408-4ea7-835d-fe83761565ad",
+      "nombre": "Rocky",
+      "tipo": "Perro",
+      "raza": "Bulldog",
+      "edad": 5,
+      "peso": 25,
+      "vacunado": true,
+      "esterilizado": false,
+      "descripcion": "Fiel y protector."
+    },
+    {
+      "id": "b536652e-b2c6-4cc2-a75e-c6160c09eaca",
+      "nombre": "Milo",
+      "tipo": "Gato",
+      "raza": "Persa",
+      "edad": 3,
+      "peso": 4,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Independiente y elegante."
+    },
+    {
+      "id": "2666d9af-d8f7-42ea-8911-6301c13e8af9",
+      "nombre": "Daisy",
+      "tipo": "Perro",
+      "raza": "Poodle",
+      "edad": 2,
+      "peso": 8,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Inteligente y le encanta jugar."
+    },
+    {
+      "id": "ef4a6ec2-59ab-4a6e-bf6d-82435d0921fe",
+      "nombre": "Simba",
+      "tipo": "Gato",
+      "raza": "Bengalí",
+      "edad": 4,
+      "peso": 7,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Activo y aventurero."
+    },
+    {
+      "id": "aa66a587-6aa6-4f92-9de1-ee1c06230c39",
+      "nombre": "Buddy",
+      "tipo": "Perro",
+      "raza": "Golden Retriever",
+      "edad": 6,
+      "peso": 32,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Amable y paciente."
+    },
+    {
+      "id": "00a73ca8-e56b-47c9-bacd-cdeb3fc16273",
+      "nombre": "Lily",
+      "tipo": "Gato",
+      "raza": "Británico de pelo corto",
+      "edad": 3,
+      "peso": 6,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Curiosa y le gusta explorar."
+    },
+    {
+      "id": "e8eb7815-edae-43e9-9075-d6490aaa3c8b",
+      "nombre": "Cooper",
+      "tipo": "Perro",
+      "raza": "Boxer",
+      "edad": 4,
+      "peso": 28,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Muy juguetón y le encanta correr."
+    },
+    {
+      "id": "ad6950d6-bb4a-4065-b7a2-fcf1e113a8c4",
+      "nombre": "Oscar",
+      "tipo": "Gato",
+      "raza": "Siberiano",
+      "edad": 5,
+      "peso": 7,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Cariñoso y le encanta acurrucarse."
+    },
+    {
+      "id": "313f6f27-28e6-42e4-be33-2a6d505615c7",
+      "nombre": "Bailey",
+      "tipo": "Perro",
+      "raza": "Cocker Spaniel",
+      "edad": 3,
+      "peso": 10,
+      "vacunado": true,
+      "esterilizado": false,
+      "descripcion": "Le encanta jugar con niños."
+    },
+    {
+      "id": "c0f72409-fcac-4f4e-b1d1-8c73234f674f",
+      "nombre": "Oliver",
+      "tipo": "Gato",
+      "raza": "Abisinio",
+      "edad": 2,
+      "peso": 5,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Muy curioso y activo."
+    },
+    {
+      "id": "7784686e-e865-4f36-93b3-ec6ed3b52398",
+      "nombre": "Toby",
+      "tipo": "Perro",
+      "raza": "Dachshund",
+      "edad": 4,
+      "peso": 7,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Amigable y le gusta excavar."
+    },
+    {
+      "id": "0b735075-2448-4f3e-a916-988162e4a038",
+      "nombre": "Chloe",
+      "tipo": "Gato",
+      "raza": "Ragdoll",
+      "edad": 1,
+      "peso": 6,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Dulce y muy tranquila."
+    },
+    {
+      "id": "de8abee2-3bcc-45c3-8087-2fd43055d3dc",
+      "nombre": "Zeus",
+      "tipo": "Perro",
+      "raza": "Gran Danés",
+      "edad": 5,
+      "peso": 45,
+      "vacunado": true,
+      "esterilizado": false,
+      "descripcion": "Gentil gigante y muy protector."
+    },
+    {
+      "id": "4b4f2163-be62-43bd-8dd2-e519be47d998",
+      "nombre": "Loki",
+      "tipo": "Gato",
+      "raza": "Sphynx",
+      "edad": 3,
+      "peso": 4,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Amigable y le gusta estar con la gente."
+    },
+    {
+      "id": "ff1e164d-6965-4fc0-8f01-c3c0c177f115",
+      "nombre": "Maggie",
+      "tipo": "Perro",
+      "raza": "Shih Tzu",
+      "edad": 2,
+      "peso": 6,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Pequeña y llena de energía."
+    },
+    {
+      "id": "ed5638ce-afc1-461f-b920-73320afe2785",
+      "nombre": "Nala",
+      "tipo": "Gato",
+      "raza": "Scottish Fold",
+      "edad": 2,
+      "peso": 5,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Curiosa y muy amigable."
+    },
+    {
+      "id": "2a4e26d0-2745-4f6a-a10d-71616ee3e927",
+      "nombre": "Zoe",
+      "tipo": "Gato",
+      "raza": "Burmés",
+      "edad": 4,
+      "peso": 6,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Cariñosa y le gusta jugar con pelotas."
+    },
+    {
+      "id": "97152956-c2e1-47c8-8438-b49a1433d516",
+      "nombre": "Harley",
+      "tipo": "Perro",
+      "raza": "Husky Siberiano",
+      "edad": 3,
+      "peso": 25,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Le encanta correr y es muy enérgico."
+    },
+    {
+      "id": "72a97b9f-a0e4-4442-803e-d6883109d6e0",
+      "nombre": "Jack",
+      "tipo": "Perro",
+      "raza": "Pastor Alemán",
+      "edad": 5,
+      "peso": 35,
+      "vacunado": true,
+      "esterilizado": false,
+      "descripcion": "Fiel y muy inteligente."
+    },
+    {
+      "id": "edff8fec-3e8b-447d-96ae-bf5a9321c7d9",
+      "nombre": "Mimi",
+      "tipo": "Gato",
+      "raza": "Angora Turco",
+      "edad": 2,
+      "peso": 4,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Elegante y le encanta trepar."
+    },
+    {
+      "id": "70c8eb92-ff5d-4820-a574-14b04874e2b2",
+      "nombre": "Duke",
+      "tipo": "Perro",
+      "raza": "Doberman",
+      "edad": 4,
+      "peso": 40,
+      "vacunado": true,
+      "esterilizado": false,
+      "descripcion": "Protector y leal."
+    },
+    {
+      "id": "8692d123-7c3b-42ba-ba9f-5205ae970533",
+      "nombre": "Penny",
+      "tipo": "Gato",
+      "raza": "Manx",
+      "edad": 3,
+      "peso": 5,
+      "vacunado": true,
+      "esterilizado": true,
+      "descripcion": "Juguetona y sin cola."
+    }
+  ]
+}
