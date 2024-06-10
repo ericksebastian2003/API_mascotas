@@ -286,5 +286,17 @@
       "esterilizado": true,
       "descripcion": "Juguetona y sin cola."
     }
+  ],
+  "users": [
+    {
+      "id": "f7f530a6-2295-41fc-a1c0-aef2c1d77a89",
+      "password": "$2b$10$a4V9sHFBfNhWRDALllvJ0Oc6ekfJRGN9rklpo25oCdVd./6dHITSe",
+      "name": "Sebastian"
+    },
+    {
+      "id": "9b742642-7634-499a-b8d1-f9e01e182240",
+      "password": "$2b$10$LRB8QpNXNe.j7tXFo9vuCOyn.rNBWi5DDhOXoY4R6lrai4/eemZ1y",
+      "name": "Sebas"
+    }
   ]
 }

@@ -4,6 +4,7 @@ import morgan from 'morgan';
 
 //Importar Rutas
 import routerPets from './routes/pets_routes.js';
+import routerUsers from './routes/users_routes.js'
 
 //Instacias
 const app = express();
@@ -21,6 +22,7 @@ app.get('/', (req, res) => {
 })
 
 //Rutas de la API
-app.use('/api', routerPets);
+app.use('/api/info', routerPets);
+app.use('/api/users', routerUsers);
 
 export default app;

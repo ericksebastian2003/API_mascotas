@@ -1,15 +1,18 @@
-import petsModel from '../models/pets_model.js'
-import { v4 as uuidv4 } from 'uuid'
+import petsModel from '../models/pets_model.js';
+import { v4 as uuidv4 } from 'uuid';
 
+
+// Controlador para obtener todas las mascotas
 const getAllPetsController = async (req, res) => {
   try {
     const pets = await petsModel.getAllPets();
     res.status(200).json(pets);
   } catch (e) {
-    res.status(500).json({ message: e.message })
+    res.status(500).json({ message: e.message });
   }
-}
+};
 
+// Controlador para obtener una mascota por ID
 const getPetByIdController = async (req, res) => {
   try {
     const { id } = req.params;
@@ -17,12 +20,12 @@ const getPetByIdController = async (req, res) => {
     console.log(pet);
     const status = pet.error ? 404 : 200;
     res.status(status).json(pet);
-
   } catch (e) {
-    res.status(500).json({ message: e.message })
+    res.status(500).json({ message: e.message });
   }
-}
+};
 
+// Controlador para registrar mascotas
 const registerPetsController = async (req, res) => {
   try {
     let pets = [];
@@ -44,33 +47,37 @@ const registerPetsController = async (req, res) => {
   }
 };
 
-const updatePetsController = async (req,res)=>{
+// Controlador para actualizar mascotas
+const updatePetsController = async (req, res) => {
   try {
-    const {id} = req.params;
+    const { id } = req.params;
     const updatedPet = req.body;
-    const pet = await petsModel.updatePets(id,updatedPet);
+    const pet = await petsModel.updatePets(id, updatedPet);
     const status = pet.error ? 404 : 200;
-    res.status(status).json(pet); 
+    res.status(status).json(pet);
   } catch (e) {
     res.status(500).json({ message: e.message });
   }
-}
+};
 
-const deletePetsController = async (req,res)=>{
+// Controlador para eliminar mascotas
+const deletePetsController = async (req, res) => {
   try {
-    const {id} = req.params;
+    const { id } = req.params;
     const pet = await petsModel.deletePets(id);
     const status = pet.error ? 404 : 200;
     res.status(status).json(pet);
   } catch (e) {
     res.status(500).json({ message: e.message });
   }
-}
+};
+
 
 export {
   registerPetsController,
   getAllPetsController,
   getPetByIdController,
   updatePetsController,
-  deletePetsController
+  deletePetsController,
+
 };

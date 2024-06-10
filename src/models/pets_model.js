@@ -1,3 +1,4 @@
+import bcrypt from 'bcrypt';
 const petsModel = {
     async getAllPets() {
         const response = await fetch('http://localhost:4000/pets');
@@ -66,6 +67,38 @@ const petsModel = {
                 message: 'Mascota eliminada con éxito'
             };
         }
+    },
+    async loginUser(username,password){
+        //Punto1
+        const response = await fetch(`http://localhost:4000/pets`)
+        const users = await response.json()
+       
+        const user = users.find(user =>user.username === username)
+        if(!user){
+            return {error:"El usuario o contraseña es incorrecto"}
+        }
+        const passwordMatch = await bcrypt.compare(password,user.password)
+        if(user&&passwordMatch){
+            return user
+        }
+        else{
+            return  {error:"El usuario o contraseña es incorrecto"}
+        }
+
+    },
+    async registerUsers(newUser){
+        //Punto1
+        const url='http://localhost:4000/pets'
+        const petition = await fetch(url, {
+            method: "POST",
+            body: JSON.stringify(newUser),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        const data = await petition.json()
+
+        return data
     }
 }
 
